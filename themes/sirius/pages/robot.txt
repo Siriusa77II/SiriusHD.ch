@@ -1,0 +1,8 @@
+User-agent: *
+Allow: / 
+User-agent: Googlebot-Image
+Disallow: /
+User-agent: Baiduspider
+Disallow: /
+
+Sitemap: http://siriushd.net/sitemap.xml

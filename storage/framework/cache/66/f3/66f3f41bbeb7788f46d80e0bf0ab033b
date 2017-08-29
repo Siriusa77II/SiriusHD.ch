@@ -1,0 +1,171 @@
+1503981725a:1:{s:8:"Blog.htm";a:12:{s:8:"fileName";s:8:"Blog.htm";s:7:"content";s:5187:"title = "blog"
+url = "/blog"
+layout = "blog"
+description = "blog"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "Blog"
+postPage = "Blog"
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "Blog"
+==
+<body class="home blog custom-background site_full has_trans_header">
+<!--HEADER-->
+<div class="header_wrap layer_wrapper">
+	
+<!--HEADER STARTS-->
+    <div class="header">
+
+        <div class="center">
+            <div class="head_inner">
+            <!--LOGO START-->
+            	                <div class="logo hide_sitetagline">
+                                                   
+                            <h1><a href="https://blog.siriushd.net/">Sirius | Blog</a></h1>
+                            <span class="desc">Vidéaste (Mais pas trop) et AdminSys Illogique.</span>
+                                                
+                                    </div>
+            <!--LOGO END-->
+            
+            <!--MENU START--> 
+                <!--MOBILE MENU START-->
+                <a id="simple-menu" href="#sidr"><i class="fa-bars"></i></a>
+                <!--MOBILE MENU END--> 
+                
+                <div id="topmenu" class="">
+                <div class="menu-header"><ul id="menu-navbar" class="menu"><li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="https://www.youtube.com/TheSiriusHD">YouTube</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="https://SiriusHD.net">Site</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63"><a href="https://blog.siriushd.net/category/life/">Life</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65"><a href="https://blog.siriushd.net/category/securite-informatique/">Sécurité Informatique</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-84"><a href="https://blog.siriushd.net/category/dev/">Dev&rsquo;</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66"><a href="https://blog.siriushd.net/category/video/">Video</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="https://blog.siriushd.net/nerf-this/">NERF THIS!</a></li>
+</ul></div>                <!--LOAD THE HEADR SOCIAL LINKS-->
+					<div class="head_soc">
+						                    </div>
+                </div>
+            <!--MENU END-->
+            
+            </div>
+    </div>
+    </div>
+<!--HEADER ENDS--></div><!--layer_wrapper class END-->
+
+	<!--Slider START-->
+		        
+            <div id="slidera" class="layer_wrapper ">
+                                
+<div id="stat_img" class=" stat_has_img">
+
+	<div class="stat_content stat_content_center">
+    	<div class="stat_content_inner">
+            <div class="center">
+                               
+               <div class="cta_buttons">
+				   				                  </div> 
+            </div>
+        </div>
+	</div>
+    
+
+			            <img id="statimg_99" class="stat_bg_img" src="http://blog.siriushd.net/wp-content/uploads/2017/01/bannerblog-1.png" alt="Sirius | Blog" />
+		
+</div>            </div> 
+            
+           
+      <!--Slider END-->
+
+<div class="home_wrap layer_wrapper">
+	<div class="fixed_wrap fixindex">
+				<!--FRONTPAGE WIDGET AREA-->
+				
+			 <div id="frontsidebar" class="frontpage_sidebar">       
+						<div id="optimizer_front_about-3" class="widget optimizer_front_about aboutblock" data-widget-id="optimizer_front_about-3"><div class="widget_wrap"><div class="text_block_wrap"><div class="center"><div class="about_inner"><span class="about_pre">Qui Suis-je?</span><h2 class="about_header">Quentin "Sirius" Silva</h2><div class="optimizer_divider "><span class="div_left"></span><span class="div_middle"><i class="fa fa-stop"></i></span><span class="div_right"></span></div><div class="about_content"><p>Vidéaste, SysAdmin, WebDev (Mais pas trop), Gamer, et Vidéaste.</p>
+<p>A la téte de quelques projet et service tel que NitroGroup Cloudsdale Radio Sirius &amp; Green Production et bien d&rsquo;autres!</p>
+</div></div></div></div></div></div><div id="optimizer_front_posts-3" class="widget optimizer_front_posts postsblck" data-widget-id="optimizer_front_posts-3"><div class="widget_wrap"><div class="postlayout_1">
+		<div class="lay1 optimposts" data-post-layout="1" data-post-type="post" data-post-count="6" data-post-category="" data-post-navigation="no_nav">
+		<div class="center"><div class="homeposts_title"><h2 class="home_title">Les postes</h2><div class="home_subtitle">Mis a jours tout... a chaque fois que j'ai quelque choses a dire!</div><div class="optimizer_divider "><span class="div_left"></span><span class="div_middle"><i class="fa fa-stop"></i></span><span class="div_right"></span></div></div>
+		{% component "blogPost" %}";s:5:"mtime";i:1497918752;s:6:"markup";s:4885:"<body class="home blog custom-background site_full has_trans_header">
+<!--HEADER-->
+<div class="header_wrap layer_wrapper">
+	
+<!--HEADER STARTS-->
+    <div class="header">
+
+        <div class="center">
+            <div class="head_inner">
+            <!--LOGO START-->
+            	                <div class="logo hide_sitetagline">
+                                                   
+                            <h1><a href="https://blog.siriushd.net/">Sirius | Blog</a></h1>
+                            <span class="desc">Vidéaste (Mais pas trop) et AdminSys Illogique.</span>
+                                                
+                                    </div>
+            <!--LOGO END-->
+            
+            <!--MENU START--> 
+                <!--MOBILE MENU START-->
+                <a id="simple-menu" href="#sidr"><i class="fa-bars"></i></a>
+                <!--MOBILE MENU END--> 
+                
+                <div id="topmenu" class="">
+                <div class="menu-header"><ul id="menu-navbar" class="menu"><li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="https://www.youtube.com/TheSiriusHD">YouTube</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a href="https://SiriusHD.net">Site</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63"><a href="https://blog.siriushd.net/category/life/">Life</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65"><a href="https://blog.siriushd.net/category/securite-informatique/">Sécurité Informatique</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-84"><a href="https://blog.siriushd.net/category/dev/">Dev&rsquo;</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66"><a href="https://blog.siriushd.net/category/video/">Video</a></li>
+<li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="https://blog.siriushd.net/nerf-this/">NERF THIS!</a></li>
+</ul></div>                <!--LOAD THE HEADR SOCIAL LINKS-->
+					<div class="head_soc">
+						                    </div>
+                </div>
+            <!--MENU END-->
+            
+            </div>
+    </div>
+    </div>
+<!--HEADER ENDS--></div><!--layer_wrapper class END-->
+
+	<!--Slider START-->
+		        
+            <div id="slidera" class="layer_wrapper ">
+                                
+<div id="stat_img" class=" stat_has_img">
+
+	<div class="stat_content stat_content_center">
+    	<div class="stat_content_inner">
+            <div class="center">
+                               
+               <div class="cta_buttons">
+				   				                  </div> 
+            </div>
+        </div>
+	</div>
+    
+
+			            <img id="statimg_99" class="stat_bg_img" src="http://blog.siriushd.net/wp-content/uploads/2017/01/bannerblog-1.png" alt="Sirius | Blog" />
+		
+</div>            </div> 
+            
+           
+      <!--Slider END-->
+
+<div class="home_wrap layer_wrapper">
+	<div class="fixed_wrap fixindex">
+				<!--FRONTPAGE WIDGET AREA-->
+				
+			 <div id="frontsidebar" class="frontpage_sidebar">       
+						<div id="optimizer_front_about-3" class="widget optimizer_front_about aboutblock" data-widget-id="optimizer_front_about-3"><div class="widget_wrap"><div class="text_block_wrap"><div class="center"><div class="about_inner"><span class="about_pre">Qui Suis-je?</span><h2 class="about_header">Quentin "Sirius" Silva</h2><div class="optimizer_divider "><span class="div_left"></span><span class="div_middle"><i class="fa fa-stop"></i></span><span class="div_right"></span></div><div class="about_content"><p>Vidéaste, SysAdmin, WebDev (Mais pas trop), Gamer, et Vidéaste.</p>
+<p>A la téte de quelques projet et service tel que NitroGroup Cloudsdale Radio Sirius &amp; Green Production et bien d&rsquo;autres!</p>
+</div></div></div></div></div></div><div id="optimizer_front_posts-3" class="widget optimizer_front_posts postsblck" data-widget-id="optimizer_front_posts-3"><div class="widget_wrap"><div class="postlayout_1">
+		<div class="lay1 optimposts" data-post-layout="1" data-post-type="post" data-post-count="6" data-post-category="" data-post-navigation="no_nav">
+		<div class="center"><div class="homeposts_title"><h2 class="home_title">Les postes</h2><div class="home_subtitle">Mis a jours tout... a chaque fois que j'ai quelque choses a dire!</div><div class="optimizer_divider "><span class="div_left"></span><span class="div_middle"><i class="fa fa-stop"></i></span><span class="div_right"></span></div></div>
+		{% component "blogPost" %}";s:4:"code";N;s:5:"title";s:4:"blog";s:3:"url";s:5:"/blog";s:6:"layout";s:4:"blog";s:11:"description";s:4:"blog";s:9:"is_hidden";s:1:"0";s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:4:"Blog";s:8:"postPage";s:4:"Blog";}s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:4:"Blog";}}}

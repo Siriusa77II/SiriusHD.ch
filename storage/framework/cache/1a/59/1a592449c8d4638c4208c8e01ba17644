@@ -1,0 +1,28 @@
+1503981725a:1:{s:11:"discord.htm";a:9:{s:8:"fileName";s:11:"discord.htm";s:7:"content";s:550:"title = "Discord"
+url = "/discord"
+meta_title = "Discord Redirection"
+is_hidden = 0
+==
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Discord - TheSiriusHD</title>
+        <meta http-equiv="refresh" content="1; URL=https://discord.gg/JKrrfdq">
+</head>
+<body>
+<center><h1>Redirection vers le serveur Discord</h1><br>
+                <h2>Si la redirection ne se fait pas automatiquement cliquez sur le liens en dessous</h2><br>
+                <a href="https://discord.gg/JKrrfdq">Invitation au Discord TheSiriusHD</a></center>
+</body>
+</html>";s:5:"mtime";i:1498932758;s:6:"markup";s:463:"<!DOCTYPE html>
+<html>
+<head>
+        <title>Discord - TheSiriusHD</title>
+        <meta http-equiv="refresh" content="1; URL=https://discord.gg/JKrrfdq">
+</head>
+<body>
+<center><h1>Redirection vers le serveur Discord</h1><br>
+                <h2>Si la redirection ne se fait pas automatiquement cliquez sur le liens en dessous</h2><br>
+                <a href="https://discord.gg/JKrrfdq">Invitation au Discord TheSiriusHD</a></center>
+</body>
+</html>";s:4:"code";N;s:5:"title";s:7:"Discord";s:3:"url";s:8:"/discord";s:10:"meta_title";s:19:"Discord Redirection";s:9:"is_hidden";s:1:"0";}}

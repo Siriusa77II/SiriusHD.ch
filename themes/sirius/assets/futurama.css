@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+}
+.container-fluid {
+  min-height: 100%;
+}
+.page-header {
+  border-bottom: none;
+  text-align: center;
+}
+.logo {
+  max-width: 100%;
+}
+.quote-block {
+  background: rgba(255,255,255,0.8);
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 0 25px 0 25px;
+  position: relative;
+}
+.quote-content {
+  font-size: 1.5em;
+  padding-left: 20px;
+  padding-bottom: 20px;
+} 
+.quote-content::before {
+  content: '\f10d';
+  font-family: 'FontAwesome';
+  color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.quote-footer {
+  height: 20px;
+}
+.quote-author {
+  float: right;
+  text-align: right;
+  text-transform: uppercase;
+}
+.quote-tweet {
+  float: left;
+  font-size: 20px;
+}
+@media (min-width: 768px) { 
+  .quote-block {
+    width: 60%;
+    max-width: 500px;
+  }
+}
+
+.buttons {
+  text-align: center;
+  margin: 20px 0;
+  overflow: auto;
+	padding-bottom: 50px;
+}
+.btn-primary, .btn-primary:visited {
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #286090;
+  border-color: #286090;
+}
+.btn-primary:hover, .btn-primary:active {
+  background-color: #084070;
+  border-color: #084070;
+}
+footer {
+  color: #c9c9c9;
+  text-align: center;
+  position: relative;
+	margin-top: -50px;
+	height: 50px;
+	clear: both;
+}

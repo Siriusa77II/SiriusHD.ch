@@ -1,0 +1,80 @@
+1503981725a:1:{s:10:"scamer.htm";a:11:{s:8:"fileName";s:10:"scamer.htm";s:7:"content";s:3611:"title = "Scamer"
+url = "/scamer"
+layout = "scamer"
+meta_title = "Scamer"
+meta_description = "Information officiel de la série."
+is_hidden = 1
+==
+<div class="row">
+        <div class="col-sm-offset-3 col-sm-7" style="background-color: black; border-radius: 25px; color:white;">
+        <p>Bonjour, et bienvenue sur la section "Scamer" de mon site.<br>
+        Si vous etes la c'est que vous savez probablement deja ce qu'est Scammer, mais si ce n'est pas le cas laissez moi vous expliquer.</p>
+        <p>Scamer est une série de video sur la platforme de partage de contenue "YouTube" visant dans un premier temps a sensibiliser les internaute aux arnaques existante sur internet.<br>
+        dans un second temps il est aussi question de divertissement, avec une touche d'humours.</p>
+        </div>
+        <div class="container">
+    <div class="row">
+        <div class="col-sm-12"><p>&nbsp;</p></div>
+    </div>
+        <div class="col-sm-offset-1 col-sm-4" style="border-radius: 25px;"> <p>La Playlist</p><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3_AxJ-eCe5lyjZBU2GY7L1rVxqgOrFjq&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-sm-offset-7 col-sm-3">la Video la plus populaire. <iframe width="560" height="315" src="https://www.youtube.com/embed/RObULlkbpq4?list=PL3_AxJ-eCe5lyjZBU2GY7L1rVxqgOrFjq&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12"><h1>Comment ce déroule un épisode? <small>du point de vue technique.</small></h1>
+        <p>les épisode sont tres défifferant entre eux, bien que simillaire au final, mais leur préparation est toujours défifferante sur certains point.<br>
+        on commence par l'idée, que faire cette fois pour changer et pour qu'il ai de la peine a nous aider? c'est la premier question. avant méme de savoirs ou appeler.<br>
+        soit je trouve une idée de moi méme soit je pioche dans les idée des abonnée soit je fait un sondage su j'ai plusieurs idée.<br>
+        au débur de la série, je devais me débrouiller moi méme, car peut d'abonnée doncune réaction presque inéxistante de leur part.<br>
+        ensuite il faut préparé la VM: le choix de l'OS, l'ajout de programe qu'un utilisateur lambda pourais utiliser comme Chrome, Firefox, gimp, steam, etc...<br>
+        ensuite l'ajout de fichier, nimporte quoi des images, video, fichier texte, photo, racoursis de sites (bien souvent NSFW pour rigoler un peut)<br>
+        pour cela j'ai une archives pré crée sur un serveur avec plus de 4gb de fichier aléatoire.<br>
+        ensuite il reste encore a piéger la VM et trouver un numéro.<br>
+        on m'envoie souvant des screenshot de page avec numéro a appeler.<br>
+        ensuite l'appele, c'est le moment le plus stressant de la video, j'ai toujours ce stresse avant un appele, ne pas savoirs ce qui va se passer, si la perssone au téléphone va me racrocher au nez, découvrire le piege ou complement marcher dedans.<br>
+        une fois l'appele terminer je verifie les enregistrement video et Audio car il m'est deja arriver de me retrouver avec des fichier complement corrompus et donc inutilisable.<br>
+        puis le montage, la miniature. c'est la que en général je trouve ne nom de l'épisode sur le fait le plus marquant de la video, et enfin l'upload.<br>
+        pour un totale de 10 a 20h de travaille</p>
+        
+        </div>
+    </div>";s:5:"mtime";i:1498191183;s:6:"markup";s:3465:"<div class="row">
+        <div class="col-sm-offset-3 col-sm-7" style="background-color: black; border-radius: 25px; color:white;">
+        <p>Bonjour, et bienvenue sur la section "Scamer" de mon site.<br>
+        Si vous etes la c'est que vous savez probablement deja ce qu'est Scammer, mais si ce n'est pas le cas laissez moi vous expliquer.</p>
+        <p>Scamer est une série de video sur la platforme de partage de contenue "YouTube" visant dans un premier temps a sensibiliser les internaute aux arnaques existante sur internet.<br>
+        dans un second temps il est aussi question de divertissement, avec une touche d'humours.</p>
+        </div>
+        <div class="container">
+    <div class="row">
+        <div class="col-sm-12"><p>&nbsp;</p></div>
+    </div>
+        <div class="col-sm-offset-1 col-sm-4" style="border-radius: 25px;"> <p>La Playlist</p><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3_AxJ-eCe5lyjZBU2GY7L1rVxqgOrFjq&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-sm-offset-7 col-sm-3">la Video la plus populaire. <iframe width="560" height="315" src="https://www.youtube.com/embed/RObULlkbpq4?list=PL3_AxJ-eCe5lyjZBU2GY7L1rVxqgOrFjq&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12"><h1>Comment ce déroule un épisode? <small>du point de vue technique.</small></h1>
+        <p>les épisode sont tres défifferant entre eux, bien que simillaire au final, mais leur préparation est toujours défifferante sur certains point.<br>
+        on commence par l'idée, que faire cette fois pour changer et pour qu'il ai de la peine a nous aider? c'est la premier question. avant méme de savoirs ou appeler.<br>
+        soit je trouve une idée de moi méme soit je pioche dans les idée des abonnée soit je fait un sondage su j'ai plusieurs idée.<br>
+        au débur de la série, je devais me débrouiller moi méme, car peut d'abonnée doncune réaction presque inéxistante de leur part.<br>
+        ensuite il faut préparé la VM: le choix de l'OS, l'ajout de programe qu'un utilisateur lambda pourais utiliser comme Chrome, Firefox, gimp, steam, etc...<br>
+        ensuite l'ajout de fichier, nimporte quoi des images, video, fichier texte, photo, racoursis de sites (bien souvent NSFW pour rigoler un peut)<br>
+        pour cela j'ai une archives pré crée sur un serveur avec plus de 4gb de fichier aléatoire.<br>
+        ensuite il reste encore a piéger la VM et trouver un numéro.<br>
+        on m'envoie souvant des screenshot de page avec numéro a appeler.<br>
+        ensuite l'appele, c'est le moment le plus stressant de la video, j'ai toujours ce stresse avant un appele, ne pas savoirs ce qui va se passer, si la perssone au téléphone va me racrocher au nez, découvrire le piege ou complement marcher dedans.<br>
+        une fois l'appele terminer je verifie les enregistrement video et Audio car il m'est deja arriver de me retrouver avec des fichier complement corrompus et donc inutilisable.<br>
+        puis le montage, la miniature. c'est la que en général je trouve ne nom de l'épisode sur le fait le plus marquant de la video, et enfin l'upload.<br>
+        pour un totale de 10 a 20h de travaille</p>
+        
+        </div>
+    </div>";s:4:"code";N;s:5:"title";s:6:"Scamer";s:3:"url";s:7:"/scamer";s:6:"layout";s:6:"scamer";s:10:"meta_title";s:6:"Scamer";s:16:"meta_description";s:34:"Information officiel de la série.";s:9:"is_hidden";s:1:"1";}}
