@@ -49,8 +49,8 @@ class __TwigTemplate_a5f9caf02bef36755624dfec0fd6b20a90376810c43fd998781cce98445
         <div class=\"col-md-3 col-sm-6 paddingtop-bottom\">
             <div class=\"fb-page\" data-href=\"https://www.facebook.com/facebook\" data-tabs=\"timeline\" data-height=\"300\" data-small-header=\"false\" style=\"margin-bottom:15px;\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\">
               <div class=\"fb-xfbml-parse-ignore\">
-                <blockquote cite=\"https://www.twitter.com/Sirius242\"><a href=\"https://www.twitter.com/Sirius242\">Twitter</a></blockquote>
-                <a href=\"https://twitter.com/Sirius242\" class=\"twitter-follow-button\" data-size=\"large\" data-dnt=\"true\" data-show-count=\"false\">Follow @Sirius242</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>
+                <blockquote cite=\"http://ko-fi.com/A533F9B\"><a href=\"http://ko-fi.com/A533F9B\">Paye moi un Café! <3 </a></blockquote>
+                  <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'A533F9B');kofiwidget2.draw();</script>
 
                 
             </div>
@@ -74,6 +74,7 @@ class __TwigTemplate_a5f9caf02bef36755624dfec0fd6b20a90376810c43fd998781cce98445
         PDCN-BNVQ-F7X8-EFOI\" title=\"Copyrighted.com Registered &amp; Protected 
         PDCN-BNVQ-F7X8-EFOI\" width=\"150\" height=\"40\" src=\"https://static.copyrighted.com/images/seal.gif\" /></a></p>
     </ul>
+ 
 </div>
 </div>
 </div>
@@ -177,8 +178,8 @@ n = 0;
         <div class=\"col-md-3 col-sm-6 paddingtop-bottom\">
             <div class=\"fb-page\" data-href=\"https://www.facebook.com/facebook\" data-tabs=\"timeline\" data-height=\"300\" data-small-header=\"false\" style=\"margin-bottom:15px;\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\">
               <div class=\"fb-xfbml-parse-ignore\">
-                <blockquote cite=\"https://www.twitter.com/Sirius242\"><a href=\"https://www.twitter.com/Sirius242\">Twitter</a></blockquote>
-                <a href=\"https://twitter.com/Sirius242\" class=\"twitter-follow-button\" data-size=\"large\" data-dnt=\"true\" data-show-count=\"false\">Follow @Sirius242</a><script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>
+                <blockquote cite=\"http://ko-fi.com/A533F9B\"><a href=\"http://ko-fi.com/A533F9B\">Paye moi un Café! <3 </a></blockquote>
+                  <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'A533F9B');kofiwidget2.draw();</script>
 
                 
             </div>
@@ -202,6 +203,7 @@ n = 0;
         PDCN-BNVQ-F7X8-EFOI\" title=\"Copyrighted.com Registered &amp; Protected 
         PDCN-BNVQ-F7X8-EFOI\" width=\"150\" height=\"40\" src=\"https://static.copyrighted.com/images/seal.gif\" /></a></p>
     </ul>
+ 
 </div>
 </div>
 </div>
