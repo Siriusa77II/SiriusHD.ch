@@ -1,0 +1,16 @@
+html {
+	background-color: #232323;
+}
+.intro {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}		
+.header {
+    background-image: url(http://pict.siriushd.net/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    height: 100vh;
+}
