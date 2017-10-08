@@ -1,5 +1,6 @@
 html {
 	background-color: #232323;
+
 }
 .intro {
 	position: absolute;
@@ -13,4 +14,24 @@ html {
     background-size: cover;
     color: #333;
     height: 100vh;
+}
+
+.logo img { 
+	filter: grayscale(150%);
+    -webkit-filter: grayscale(150%); 
+    filter: gray;
+    -webkit-transition: all .6s ease; 
+}
+
+.logo img:hover {    
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none; 
+}
+.social {
+	font-size: 20px;
+}
+hr { 
+	margin-top: 10px; 
+	margin-bottom: 10px 
 }
