@@ -1,13 +1,13 @@
-html {
-	background-color: #232323;
-
+/*
+CSS from 08:00 AM to 6:00PM
+By Sirius
+For SiriusHD.CH
+V5.0
+*/
+body {
+	background-color: #fff;
 }
-.intro {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-}		
+	
 .header {
     background-image: url(http://pict.siriushd.net/header.jpg);
     background-repeat: no-repeat;
@@ -31,7 +31,42 @@ html {
 .social {
 	font-size: 20px;
 }
-hr { 
-	margin-top: 10px; 
-	margin-bottom: 10px 
+
+.social a:link {
+	color: black;
+}
+.social a:visited {
+	color: black;
+}
+.social a:hover {
+	color: orange;
+	transition: all 0.3s ease-in-out 0s;
+}
+.social a:active {
+	color: orange;
+}
+
+.card {
+ 	box-shadow: 5px 5px 5px grey;
+    border-radius: 0 !important;
+    padding-left: 10px;
+}
+
+img {
+	padding: 10px;
+}
+.header-content-inner {
+	color: black;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -400px;
+}
+.version {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
 }
