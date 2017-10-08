@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>SiriusHD</title>
-	<link rel="stylesheet" type="text/css" href="css/night.css">
+	<link href="css/style.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet" />
 	<link rel="alternate" hreflang="en" href="https://siriushd.net/en" />
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -18,6 +18,21 @@
     <meta name="twitter:title" content="TheSiriusHD | {{ this.page.meta_title }}" />
     <meta name="twitter:description" content=" Vidéaste, Brony, Developeur Web (mais pas trop) Fondateur de la norme RER-D de NitroGroup, Cloudsdale Radio et Sirius Media Group." />
     <meta name="twitter:image" content="https://siriushd.net/themes/sirius/assets/img/avatar.jpg" />
+    <script>
+<!--
+function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (8 <= currentTime&&currentTime < 18) {
+       document.write("<link rel='stylesheet' href='css/night.css' type='text/css'>");
+      }
+      if (18 <= currentTime&&currentTime < 8) {
+       document.write("<link rel='stylesheet' href='css/style.css' type='text/css'>");
+      }
+}
+
+getStylesheet();
+-->
+</script>
 </head>
 <body>
 <section class="header center text-center">
