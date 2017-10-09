@@ -16,7 +16,7 @@
  */
 
 /**
- * Service definition for BIGQUERYDATATRANSFER (v1).
+ * Service definition for BigQueryDataTransfer (v1).
  *
  * <p>
  * Transfers data from partner SaaS applications to Google BigQuery on a
@@ -29,20 +29,31 @@
  *
  * @author Google, Inc.
  */
-class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
+class Google_Service_BigQueryDataTransfer extends Google_Service
 {
   /** View and manage your data in Google BigQuery. */
   const BIGQUERY =
       "https://www.googleapis.com/auth/bigquery";
+  /** View and manage your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
 
   public $projects;
   public $projects_dataSources;
+  public $projects_locations;
+  public $projects_locations_dataSources;
+  public $projects_locations_transferConfigs;
+  public $projects_locations_transferConfigs_runs;
+  public $projects_locations_transferConfigs_runs_transferLogs;
   public $projects_transferConfigs;
   public $projects_transferConfigs_runs;
   public $projects_transferConfigs_runs_transferLogs;
   
   /**
-   * Constructs the internal representation of the BIGQUERYDATATRANSFER service.
+   * Constructs the internal representation of the BigQueryDataTransfer service.
    *
    * @param Google_Client $client
    */
@@ -54,7 +65,7 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
     $this->version = 'v1';
     $this->serviceName = 'bigquerydatatransfer';
 
-    $this->projects = new Google_Service_BIGQUERYDATATRANSFER_Resource_Projects(
+    $this->projects = new Google_Service_BigQueryDataTransfer_Resource_Projects(
         $this,
         $this->serviceName,
         'projects',
@@ -84,7 +95,7 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
           )
         )
     );
-    $this->projects_dataSources = new Google_Service_BIGQUERYDATATRANSFER_Resource_ProjectsDataSources(
+    $this->projects_dataSources = new Google_Service_BigQueryDataTransfer_Resource_ProjectsDataSources(
         $this,
         $this->serviceName,
         'dataSources',
@@ -119,20 +130,130 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
-                'pageSize' => array(
-                  'location' => 'query',
-                  'type' => 'integer',
-                ),
                 'pageToken' => array(
                   'location' => 'query',
                   'type' => 'string',
+                ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
                 ),
               ),
             ),
           )
         )
     );
-    $this->projects_transferConfigs = new Google_Service_BIGQUERYDATATRANSFER_Resource_ProjectsTransferConfigs(
+    $this->projects_locations = new Google_Service_BigQueryDataTransfer_Resource_ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        array(
+          'methods' => array(
+            'get' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'isEnabled' => array(
+              'path' => 'v1/{+name}:isEnabled',
+              'httpMethod' => 'POST',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'list' => array(
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'pageToken' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+                'filter' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+              ),
+            ),'setEnabled' => array(
+              'path' => 'v1/{+name}:setEnabled',
+              'httpMethod' => 'POST',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),
+          )
+        )
+    );
+    $this->projects_locations_dataSources = new Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsDataSources(
+        $this,
+        $this->serviceName,
+        'dataSources',
+        array(
+          'methods' => array(
+            'checkValidCreds' => array(
+              'path' => 'v1/{+name}:checkValidCreds',
+              'httpMethod' => 'POST',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'get' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'list' => array(
+              'path' => 'v1/{+parent}/dataSources',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'parent' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'pageToken' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+              ),
+            ),
+          )
+        )
+    );
+    $this->projects_locations_transferConfigs = new Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsTransferConfigs(
         $this,
         $this->serviceName,
         'transferConfigs',
@@ -227,7 +348,7 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
           )
         )
     );
-    $this->projects_transferConfigs_runs = new Google_Service_BIGQUERYDATATRANSFER_Resource_ProjectsTransferConfigsRuns(
+    $this->projects_locations_transferConfigs_runs = new Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsTransferConfigsRuns(
         $this,
         $this->serviceName,
         'runs',
@@ -262,15 +383,6 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
-                'statuses' => array(
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ),
-                'pageSize' => array(
-                  'location' => 'query',
-                  'type' => 'integer',
-                ),
                 'runAttempt' => array(
                   'location' => 'query',
                   'type' => 'string',
@@ -279,12 +391,21 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
                   'location' => 'query',
                   'type' => 'string',
                 ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+                'statuses' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ),
               ),
             ),
           )
         )
     );
-    $this->projects_transferConfigs_runs_transferLogs = new Google_Service_BIGQUERYDATATRANSFER_Resource_ProjectsTransferConfigsRunsTransferLogs(
+    $this->projects_locations_transferConfigs_runs_transferLogs = new Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsTransferConfigsRunsTransferLogs(
         $this,
         $this->serviceName,
         'transferLogs',
@@ -299,6 +420,10 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
+                'pageToken' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
                 'pageSize' => array(
                   'location' => 'query',
                   'type' => 'integer',
@@ -308,9 +433,190 @@ class Google_Service_BIGQUERYDATATRANSFER extends Google_Service
                   'type' => 'string',
                   'repeated' => true,
                 ),
+              ),
+            ),
+          )
+        )
+    );
+    $this->projects_transferConfigs = new Google_Service_BigQueryDataTransfer_Resource_ProjectsTransferConfigs(
+        $this,
+        $this->serviceName,
+        'transferConfigs',
+        array(
+          'methods' => array(
+            'create' => array(
+              'path' => 'v1/{+parent}/transferConfigs',
+              'httpMethod' => 'POST',
+              'parameters' => array(
+                'parent' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'authorizationCode' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+              ),
+            ),'delete' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'get' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'list' => array(
+              'path' => 'v1/{+parent}/transferConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'parent' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
                 'pageToken' => array(
                   'location' => 'query',
                   'type' => 'string',
+                ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+                'dataSourceIds' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ),
+              ),
+            ),'patch' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'authorizationCode' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+                'updateMask' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+              ),
+            ),'scheduleRuns' => array(
+              'path' => 'v1/{+parent}:scheduleRuns',
+              'httpMethod' => 'POST',
+              'parameters' => array(
+                'parent' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),
+          )
+        )
+    );
+    $this->projects_transferConfigs_runs = new Google_Service_BigQueryDataTransfer_Resource_ProjectsTransferConfigsRuns(
+        $this,
+        $this->serviceName,
+        'runs',
+        array(
+          'methods' => array(
+            'delete' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'get' => array(
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'name' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'list' => array(
+              'path' => 'v1/{+parent}/runs',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'parent' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'pageToken' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+                'statuses' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ),
+                'runAttempt' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+              ),
+            ),
+          )
+        )
+    );
+    $this->projects_transferConfigs_runs_transferLogs = new Google_Service_BigQueryDataTransfer_Resource_ProjectsTransferConfigsRunsTransferLogs(
+        $this,
+        $this->serviceName,
+        'transferLogs',
+        array(
+          'methods' => array(
+            'list' => array(
+              'path' => 'v1/{+parent}/transferLogs',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'parent' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'pageToken' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+                'pageSize' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+                'messageTypes' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
                 ),
               ),
             ),
