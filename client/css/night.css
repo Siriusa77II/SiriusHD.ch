@@ -19,7 +19,8 @@ body {
 
 .logo img { 
 	filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%);
+    opacity: 0.4; 
     filter: gray;
     -webkit-transition: all .6s ease; 
 }
@@ -27,6 +28,7 @@ body {
 .logo img:hover {    
 	filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+    opacity: 1;
     filter: none; 
 }
 .social {
