@@ -75,3 +75,11 @@ img {
 	left: 0px;
 	color: #afafaf;
 }
+.Humans img {
+	position: block;
+	bottom: 0px;
+	right: 0px;
+}
+.Humans img:hoover {
+	background-color: black !important;
+}
