@@ -1,19 +1,19 @@
 /*
-CSS from 08:00 AM to 6:00PM
+CSS from 06:00 PM to 8:00AM
 By Sirius
 For SiriusHD.CH
 V5.0
 */
 body {
-	background-color: white !important;
-	color: black !important;
+	background-color: #3d3d3d !important;
+	color: white !important;
 }
 	
 .header {
     background-image: url(http://pict.siriushd.net/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: #333;
     height: 100vh;
 }
 
@@ -36,10 +36,10 @@ body {
 }
 
 .social a:link {
-	color: black;
+	color: white;
 }
 .social a:visited {
-	color: black;
+	color: white;
 }
 .social a:hover {
 	color: orange;
@@ -50,7 +50,7 @@ body {
 }
 
 .card {
-	background-color: white !important;
+	background-color: #3d3d3d !important;
  	box-shadow: 5px 5px 5px #606060;
     border-radius: 0 !important;
     padding-left: 10px;
@@ -60,8 +60,8 @@ img {
 	padding: 10px;
 }
 .header-content-inner {
-	color: black;
-	background: rgba(255, 255, 255, 0.5);
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
 	padding: 100px;
 	position: absolute;
 	top: 50%;
@@ -79,7 +79,4 @@ img {
 	position: block;
 	bottom: 0px;
 	right: 0px;
-}
-.Humans img:hoover {
-	background-color: black !important;
 }
