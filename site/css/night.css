@@ -1,0 +1,82 @@
+/*
+CSS from 06:00 PM to 8:00AM
+By Sirius
+For SiriusHD.CH
+V5.0
+*/
+body {
+	background-color: #3d3d3d !important;
+	color: white !important;
+}
+	
+.header {
+    background-image: url(http://cdn.siriushd.net/2017-12-08_05-33-28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    height: 100vh;
+}
+
+.logo img { 
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: 0.4; 
+    filter: gray;
+    -webkit-transition: all .6s ease; 
+}
+
+.logo img:hover {    
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    opacity: 1;
+    filter: none; 
+}
+.social {
+	font-size: 20px;
+}
+
+.social a:link {
+	color: white;
+}
+.social a:visited {
+	color: white;
+}
+.social a:hover {
+	color: orange;
+	transition: all 0.3s ease-in-out 0s;
+}
+.social a:active {
+	color: orange;
+}
+
+.card {
+	background-color: #3d3d3d !important;
+ 	box-shadow: 5px 5px 5px #606060;
+    border-radius: 0 !important;
+    padding-left: 10px;
+}
+
+img {
+	padding: 10px;
+}
+.header-content-inner {
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -400px;
+}
+.version {
+	position: block;
+	bottom: 0px;
+	left: 0px;
+	color: #5e5e5e;
+}
+.Humans img {
+	position: block;
+	bottom: 0px;
+	right: 0px;
+}
