@@ -10,7 +10,7 @@ body {
 }
 	
 .header {
-    background-image: url(http://cdn.siriushd.net/2017-12-08_05-33-28.jpg);
+    background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -51,7 +51,7 @@ body {
 
 .card {
 	background-color: white !important;
- 	box-shadow: 5px 5px 5px #606060;
+ 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0 !important;
     padding-left: 10px;
 }

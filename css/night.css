@@ -10,7 +10,7 @@ body {
 }
 	
 .header {
-    background-image: url(http://cdn.siriushd.net/2017-12-08_05-33-28.jpg);
+    background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #333;
@@ -54,6 +54,20 @@ body {
  	box-shadow: 5px 5px 5px #606060;
     border-radius: 0 !important;
     padding-left: 10px;
+}
+
+.card a:link {
+	color: white;
+}
+.card a:visited {
+	color: white;
+}
+.card a:hover {
+	color: orange;
+	transition: all 0.3s ease-in-out 0s;
+}
+.card a:active {
+	color: orange;
 }
 
 img {
